@@ -1,11 +1,7 @@
 import cv2
-import speech_recognition as sr
-import pyttsx3
 import numpy as np
 import time
-from threading import *
 import os
-import multiprocessing as mp
 import HandTrackingModule as htm
 def virtual_Painter():
     # print("started")
@@ -222,12 +218,10 @@ def virtual_Painter():
 
                 xp, yp = x1, y1
 
-            # if shape == 'freestyle':
-            #     cv2.putText(img, "C _ R _ _ E   ->  shape", (150, 350), cv2.FONT_HERSHEY_PLAIN, 5,
-            #             (255, 0, 255), 3)
+           
 
 
-            # Clear Canvas when all fingers are up
+            # Clear Canvas when 2 fingers are up
             if fingers[2] and fingers[3] and fingers[0]==0 and fingers[1]==0 and fingers[4]==0:
                 imgCanvas = np.zeros((720, 1280, 3), np.uint8)
 
