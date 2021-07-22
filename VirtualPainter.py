@@ -57,7 +57,7 @@ def virtual_Painter():
                         drawColor = (255, 0, 255)
                     elif 550 < x1 < 750:
                         header = overlayList[1]
-                        drawColor = (123, 20, 255)
+                        drawColor = (255,0,0)
                     elif 800 < x1 < 950:
                         header = overlayList[10]
                         drawColor = (0, 255, 0)
@@ -80,16 +80,16 @@ def virtual_Painter():
                     elif 1050 < x1 < 1200 and drawColor == (255,0,255):
                         header = overlayList[8]
                         shape ='elipse'
-                    elif 250 <x1 <450 and drawColor == (123, 20, 255):
+                    elif 250 <x1 <450 and drawColor == (255,0,0):
                         header = overlayList[10]
                         shape = 'freestyle'
-                    elif 550 < x1 < 750 and drawColor == (123, 20, 255):
+                    elif 550 < x1 < 750 and drawColor == (255,0,0):
                         header = overlayList[11]
                         shape = 'circle'
-                    elif 800 < x1 < 950 and drawColor == (123, 20, 255):
+                    elif 800 < x1 < 950 and drawColor == (255,0,0):
                         header = overlayList[12]
                         shape = 'rectangle'
-                    elif 1050 < x1 < 1200 and drawColor == (123, 20, 255):
+                    elif 1050 < x1 < 1200 and drawColor == (255,0,0):
                         header = overlayList[13]
                         shape ='elipse'
                     if 250 <x1 <450 and drawColor == (0,255,0):
