@@ -1,4 +1,4 @@
-# AI_Virtual_Painter_2.0
+# Advanced_Virtual_Painter_2.0
 AI Virtual Painter with geometric shapes | drawing in air | computer vision| opencv | AI TechStack
 AI Virtual Painter, an amazing project in python using opencv. 
 This project has the following new features : 
